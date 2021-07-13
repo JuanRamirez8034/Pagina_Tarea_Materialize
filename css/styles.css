@@ -1,0 +1,132 @@
+.pasar:hover {
+  background-color: #26a69a;
+}
+
+.active {
+  background-color: #155852;
+}
+
+.separador-b {
+  width: 100%;
+  height: 25px;
+  border-radius: 0 0 50% 50%;
+  background-color: #65b8f81c;
+  text-align: center;
+  color: aliceblue;
+}
+
+.separador-t {
+  width: 100%;
+  height: 30px;
+  border-radius: 50% 50% 0 0;
+  background-color: #263238;
+  color: aliceblue;
+}
+
+.border {
+  border: 1px solid rgb(230, 230, 230);
+}
+
+p {
+  line-height: 2rem;
+}
+
+.Tiny_1 {
+  float: left;
+  margin-right: 5px;
+  color: rgb(98, 153, 62) !important;
+}
+.relative{
+  position: relative;
+}
+.rotar{
+  transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+}
+#contenedor {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  background: var(--colorPaginaCompleta);
+  background-image: url(../img/imagen2.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+#contenedor:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.opacity{
+  background-color: #263238b7;
+  border-radius: 5%;
+}
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.btn-start {
+  background-color: #324149;
+  border-radius: 8px;
+}
+
+.btn-start:hover {
+  background-color: #fdd65e;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255, 255, 255, .9);
+}
+
+.parallax-container .section {
+  width: 100%;
+}
+
+.i_opc {
+  color: white;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+
+  h5 {
+    font-size: 1.2rem;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
